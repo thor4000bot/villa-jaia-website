@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.villamagnus.com/sitemap.xml
+
+# AI/LLM crawlers welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot
+Allow: /

@@ -1,0 +1,18 @@
+# env / secrets
+.env
+.env.*
+*.key
+*.pem
+credentials/
+secrets/
+
+# local state
+.netlify/state.json
+.netlify/
+node_modules/
+.DS_Store
+
+# build artifacts
+dist/
+build/
+.cache/

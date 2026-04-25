@@ -1,0 +1,16 @@
+{
+  "name": "Villa Magnus",
+  "short_name": "Villa Magnus",
+  "description": "Luxury villa rental in Noto, Sicily with infinity pool and Ionian Sea views.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f7f3ec",
+  "theme_color": "#f7f3ec",
+  "icons": [
+    {
+      "src": "images/villa-magnus-01.jpg",
+      "sizes": "any",
+      "type": "image/jpeg"
+    }
+  ]
+}
