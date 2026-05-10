@@ -54,7 +54,7 @@
       <a href="#gallery" class="btn btn-outline-light">Voir la Galerie</a>
     </div>
   </div>
-  <div class="hero-scroll" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})"><div class="scroll-line"></div><span>Défiler</span></div>
+  <button type="button" class="hero-scroll" aria-label="Scroll" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})"><div class="scroll-line"></div><span>Défiler</span></button>
 </section>
 <div class="stats-bar">
   <div class="stat"><span class="stat-num">5</span><span class="stat-label">Suites</span></div>
@@ -71,7 +71,7 @@
   </div></div>
 </section>
 <div class="editorial">
-  <div class="editorial-img"><picture><source srcset="../images/villa-jaia-05.webp" type="image/webp"><img src="../images/villa-jaia-05.jpg" alt="Piscine privée avec palmiers" loading="lazy"></picture></div>
+  <div class="editorial-img"><picture><source srcset="../images/villa-jaia-05.webp" type="image/webp"><img src="../images/villa-jaia-05.jpg" alt="Piscine privée avec palmiers" width="900" height="675" loading="lazy"></picture></div>
   <div class="editorial-text">
     <p class="eyebrow">La Piscine</p>
     <h3>Un Monde Privé Sous les Palmiers</h3>
@@ -79,7 +79,7 @@
   </div>
 </div>
 <div class="editorial reverse">
-  <div class="editorial-img"><picture><source srcset="../images/villa-jaia-14.webp" type="image/webp"><img src="../images/villa-jaia-14.jpg" alt="Suite Villa Jaia" loading="lazy"></picture></div>
+  <div class="editorial-img"><picture><source srcset="../images/villa-jaia-14.webp" type="image/webp"><img src="../images/villa-jaia-14.jpg" alt="Suite Villa Jaia" width="900" height="675" loading="lazy"></picture></div>
   <div class="editorial-text">
     <p class="eyebrow">Les Suites</p>
     <h3>Quatre Suites et une Annexe Privée</h3>
@@ -87,7 +87,7 @@
   </div>
 </div>
 <div class="editorial">
-  <div class="editorial-img"><picture><source srcset="../images/villa-jaia-13.webp" type="image/webp"><img src="../images/villa-jaia-13.jpg" alt="Jardin potager et poules" loading="lazy"></picture></div>
+  <div class="editorial-img"><picture><source srcset="../images/villa-jaia-13.webp" type="image/webp"><img src="../images/villa-jaia-13.jpg" alt="Jardin potager et poules" width="900" height="675" loading="lazy"></picture></div>
   <div class="editorial-text dark">
     <p class="eyebrow" style="color:var(--terracotta)">La Terre</p>
     <h3>Solaire, Eau de Source &amp; Potager</h3>
@@ -119,15 +119,15 @@
 <section id="gallery">
   <div class="gallery-hero"><p class="eyebrow" style="color:var(--terracotta)">Galerie</p><h2>Villa Jaia en Images</h2></div>
   <div class="gallery-grid">
-    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-05.webp" type="image/webp"><img src="../images/villa-jaia-05.jpg" alt="Piscine avec palmiers" loading="lazy"></picture></div>
-    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-14.webp" type="image/webp"><img src="../images/villa-jaia-14.jpg" alt="Suite" loading="lazy"></picture></div>
-    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-13.webp" type="image/webp"><img src="../images/villa-jaia-13.jpg" alt="Potager bio" loading="lazy"></picture></div>
-    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-04.webp" type="image/webp"><img src="../images/villa-jaia-04.jpg" alt="Terrasse couverte" loading="lazy"></picture></div>
-    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-05.webp" type="image/webp"><img src="../images/villa-jaia-05.jpg" alt="Extérieur" loading="lazy"></picture></div>
-    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-06.webp" type="image/webp"><img src="../images/villa-jaia-06.jpg" alt="Chambre" loading="lazy"></picture></div>
+    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-05.webp" type="image/webp"><img src="../images/villa-jaia-05.jpg" alt="Piscine avec palmiers" width="900" height="675" loading="lazy"></picture></div>
+    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-14.webp" type="image/webp"><img src="../images/villa-jaia-14.jpg" alt="Suite" width="900" height="675" loading="lazy"></picture></div>
+    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-13.webp" type="image/webp"><img src="../images/villa-jaia-13.jpg" alt="Potager bio" width="900" height="675" loading="lazy"></picture></div>
+    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-04.webp" type="image/webp"><img src="../images/villa-jaia-04.jpg" alt="Terrasse couverte" width="900" height="675" loading="lazy"></picture></div>
+    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-05.webp" type="image/webp"><img src="../images/villa-jaia-05.jpg" alt="Extérieur" width="900" height="675" loading="lazy"></picture></div>
+    <div class="gallery-item"><picture><source srcset="../images/villa-jaia-06.webp" type="image/webp"><img src="../images/villa-jaia-06.jpg" alt="Chambre" width="900" height="675" loading="lazy"></picture></div>
   </div>
 </section>
-<div id="lightbox"><button id="lightbox-close">Fermer &nbsp;✕</button><button id="lightbox-prev">&#8249;</button><img id="lightbox-img" src="" alt="Villa Jaia"><button id="lightbox-next">&#8250;</button><div class="lightbox-counter" id="lightbox-counter">1 / 6</div></div>
+<div id="lightbox"><button id="lightbox-close">Fermer &nbsp;✕</button><button id="lightbox-prev">&#8249;</button><img id="lightbox-img" src="" alt="Villa Jaia" width="900" height="675"><button id="lightbox-next">&#8250;</button><div class="lightbox-counter" id="lightbox-counter">1 / 6</div></div>
 
 <section id="availability">
   <div class="section-inner">
@@ -207,7 +207,7 @@
 <div class="editorial">
   <div class="editorial-img">
     <picture>
-      <img src="https://www.villamagnus.com/images/villa-magnus-hero.jpg" alt="Villa Magnus terrasse avec piscine à débordement, Noto, Sicile" loading="lazy">
+      <img src="https://www.villamagnus.com/images/villa-magnus-hero.jpg" alt="Villa Magnus terrasse avec piscine à débordement, Noto, Sicile" width="900" height="675" loading="lazy">
     </picture>
   </div>
   <div class="editorial-text">
